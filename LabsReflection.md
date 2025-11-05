@@ -19,15 +19,21 @@ Honestly, I did not understand why this was possible. I think that this verifica
 ## Lab 3: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 **Topic:** SQL injection
 
+Here, first lab in SQL injection, we had to break the SQL request of the browser page in order to display more information than needed. For that, we got a sample of what a resquet looked like in the instructions, when a user select a category of products to display. Trying some things in the URL, we would end up by breaking the format of SQL to do what we wanted. And finally we would end up by ignoring the "released" condition of the SQL request, displaying either released and non-released products on the site.
+
+Arriving on this lab I thought the SQL would be in the HTTP exchange somewhere, and that the line type of the instructions would be printed somewhere in. Obviously, I struggled for nothing as what I searched for wasn't accessible to me. The SQL line written was in the server, where I ain't, so my search yielded nothing. It's only after the lab that I remembered what I did on SQL, and how ridiculous my search was. But in my defense, I did not worked a lot on SQL, and not on this aspect (SQL filtering was my comrade's part during the Practical Work). So because I was struggling to know what to search for, I watched the first video. It gived me the solution to the lab, but I did not understand why it was a solution. So I watched Rana's video, that explained a lot better. I understood on the job how was working the SQL format and that this requests where vulnerable. Maybe because I am tired, but I struggled for nothing much to understand the logic break. But I have been able to see what was doing our request and I ended up today's cybersecurity session on this completed lab.
 
 ## Lab 4: SQL injection vulnerability allowing login bypass
 **Topic:** SQL injection
+
 
 
 ## Lab 5: Unprotected admin functionality
 **Topic:** Access control
 
 
+
 ## Lab 6: User role can be modified in user profile
 **Topic:** Access control
+
 
