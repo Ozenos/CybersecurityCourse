@@ -26,14 +26,30 @@ Arriving on this lab I thought the SQL would be in the HTTP exchange somewhere, 
 ## Lab 4: SQL injection vulnerability allowing login bypass
 **Topic:** SQL injection
 
+This lab wanted a user to login as "administrator" username, using SQL vulnerability. To get into this account, we just have to get on the page of the login and set our username to "administrator", just adding the special "--'" characters after it to make the request enter a format in SQL that will ignore the other parameter: the password. No matter what we enter as the password, we would login as administrator.
 
+It seems I have difficulties with this kind of logic. I tried to modify the HTTP request containing the username and password in clear text, but the token wasn't accepted and it wasn't identified as on my browser. The solution was pretty simple, too much simple to me it seems, because I do understand easily that this would work easily, but it would probably not come to my mind as easily. I need more practive to see this possibilies. I would probably do more SQL labs later.
 
 ## Lab 5: Unprotected admin functionality
 **Topic:** Access control
 
+For this lab, we had to delete a user accessing administrator panel. To access it, we had to search some objects on the web server by typing different URLs and try to see if something was accessible. The /robots.txt gave us the path to administrator panel, which give us the opportunity to delete carlos, the target user, with a simple click.
 
+What I would have to do was pretty clear to me. I've read the documentation on this topic, and the goal was pretty obvious. So I searched a little on HTTP request history for anything useful, but no, and I tried type some keys in the URL. At that time, I began by entering things like "administrator" or "panel" but nothing worked. As I didn't have the information needed, I read the solution, revealing the presence of the robots.txt. I don't understand why this name and what is the purpose of this file, but it was what I needed to find. I am satisfied that I knew what to do, but a little frustrated because I do not see how I would have ended up searching this key word (assuming it was not in the documentation of the topic).
 
 ## Lab 6: User role can be modified in user profile
 **Topic:** Access control
 
+In this situation, we were requested again to delete the user carlos by accessing admin panel. This time, we knew where was the panel but since our user do not have the admin permissions, it cannot access it. Through some HTTP history exploration and features uses, we would end up seeing that we send a JSON format to change our mail address, and that the server respond also with JSON, showing in clear that roleid, where we want to have the number 2 for admin access, is in the same range than username and mail address. So by adding '"roleid":2' in the POST, we would end up with modified roleid and be able to access admin panel to delete carlos (poor carlos every time).
 
+I struggled a moment because I did not try to see the HTTP history using email address edit, and I am feeling bad about that, it's the first thing I should have done, there is not a lot a functionnalities on this webpage. I also struggled a moment because my modified JSON did not worked and return many errors, before realising that I forgot to place the comma... Thanks to Rana for explanations.
+
+## Lab 7: Unprotected admin functionality with unpredictable URL
+**Topic:** Access control
+
+Easier, after reading the documentation just above in the topic, I've understand that I would have to look up for the admin page reference in the HTTP requests, and I found what I needed easily.
+
+## Lab 8: User role controlled by request parameter
+**Topic:** Access control
+
+Also simple, I logged in with user credentials given, and I looked up for the "cookies" parameter. In plain text a boolean parameter for admin was written, and so I turned it on "true" on every operation I did on admin page by using the interceptor of the Burp Suite.
