@@ -1,15 +1,15 @@
 # 1️⃣ Introduction
 
 **Tester(s):**  
-- Name:  
+- Name: Marius Pozo
 
 **Purpose:**  
-- Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
+- Identify vulnerabilities on a basic web application.
 
 **Scope:**  
-- Tested components:  
-- Exclusions:  
-- Test approach: Gray-box / Black-box / White-box
+- Tested components: GET:/, GET:register, POST:register
+- Exclusions: 
+- Test approach: Gray-box
 
 **Test environment & dates:**  
 - Start:  
