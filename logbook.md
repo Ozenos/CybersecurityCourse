@@ -8,4 +8,4 @@
 | 5.11.2025 | 3 | PortSwigger labs start | LabsReflection.md created, 3 labs done |
 | 12.11.2025 | 2 | PortSwigger labs practive | 5 labs done, added reflections |
 | 20.11.2025 | 5 | Installations | Docker installed, phase 1 part started and finished |
-| 24.11.2025 | 4 | Record review | 18.11 lecture catch-up |
+| 24.11.2025 | 4 | Record review | 18.11 lecture catch-up / phase1-part2 completed |
