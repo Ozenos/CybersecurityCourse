@@ -48,7 +48,7 @@
 
 ---
 
-# 4️⃣ Findings (filled with examples → replace)
+# 4️⃣ Findings
 
 > Fill in one row per finding. Focus on clarity and the most important issues.
 
