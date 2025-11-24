@@ -56,8 +56,8 @@
 |------|-----------|----------|--------------|------------------|
 | F-01 | 🔴 High | SQL Injection | SQL Injection may be possible | `'` character make return of internal error page (500). Boolean manipulation succeeded through custom SQL request. |
 | F-02 | 🟠 Medium | anti-CSRF Tokens | No tokens on HTML requests found. Could end up in man-in-the-middle attack.| "No known Anti-CSRF token", said ZAP. |
-| F-03 | 🟠 Medium | CSP not set | Content Security Policy (CSP) header not set.  | None |
-| F-04 | 🟡 Low | X-Content-Type-Options Header Missing | The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. Allow older browser version to display the app, and potentially in a way not intended because of older display methods | None |
+| F-03 | 🟠 Medium | CSP not set | Content Security Policy (CSP) header not set.  | Header parameter not present |
+| F-04 | 🟡 Low | X-Content-Type-Options Header Missing | The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. Allow older browser version to display the app, and potentially in a way not intended because of older display methods | Header parameter not present |
 | F-05 | 🟡 Low | Non-encrypted passwords | Passwords in database are displayed in plain text | Explicit |
 
 ---
