@@ -10,3 +10,4 @@
 | 20.11.2025 | 5 | Installations | Docker installed, phase 1 part started and finished |
 | 24.11.2025 | 4 | Record review | 18.11 lecture catch-up / phase1-part2 completed |
 | 5.12.2025 | 2 | Phase2 start | Video watched, basics setup and firsts password cracked |
+| 8.12.2025 | 1 | Phase2 end | All password cracked using video hints. Report written on GitHub |
