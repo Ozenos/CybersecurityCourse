@@ -11,3 +11,4 @@
 | 24.11.2025 | 4 | Record review | 18.11 lecture catch-up / phase1-part2 completed |
 | 5.12.2025 | 2 | Phase2 start | Video watched, basics setup and firsts password cracked |
 | 8.12.2025 | 1 | Phase2 end | All password cracked using video hints. Report written on GitHub |
+| 9.12.2025 | 3 | Phase3 start | Beginned writing of Phase3 report of user's authorization |
