@@ -1,7 +1,86 @@
-# Guest
+### 🧑‍🦲 **Guest**
 
+---
 
-# Reserver
+**✅ Can do**
 
+* “Can view public resource list — `/`”
+* “Can access login form — `/login`”
+* “Can view registered reservations without identity — `/` (spec 8)”
 
-# Administrator
+---
+
+**❌ Cannot do**
+
+List every action that a *Guest* is blocked from doing.
+Example format:
+
+* “Cannot access `/reservation` (redirect to login)”
+* “Cannot POST `/api/reservations`”
+* “Cannot access any `/admin/*` pages”
+* “Cannot access reserver profile page `/profile`”
+
+---
+
+### 🧑‍💼 **Reserver**
+
+**✅ Can do**
+
+## Main page
+Display same interface as **Guest**. List reservations with ressource names, starting and ending time, and the reserver.
+
+## Add a new ressource
+User can acces the `/ressource` using the **Add a new ressource** on the main page. It opens a form that request a title and a description.
+Submitting form sends us back to the main page.
+`/api/ressources` print a dark page with `{"error":"Not Found"}`.
+❌ This behavior is not specified in specs description, and so is not supposed to be possible.
+
+## Add a new reservation
+User can acces the `/reservation` using the **Add a new reservation** on the main page. It opens a form that request username, the ressource, hours and minutes.
+Submitting form sends us back to the main page. And now display the reserved ressource in the list.
+There is no error detected by doing an overlap.
+✅ Reservation is possible, as intended.
+❌ Overlap is not detected and multiple reservation at the same time are possible
+❌ It is possible to specify minutes on reservation, but "7. Resources can be booked on an hourly basis.", and so not on minutes should be possible.
+
+## Log out
+Clocking `Log Out` button leads us to the main page without account. Clicking button, changing from pages does not log us again in previous account.
+
+## Invalid URL
+Accessing unknow pages like `/asdaf` return error page. Notice that the error page name is "Staus", probably a mispell of "Status".
+✅ Correct common behavior to avoir users to find unauthorized pages.
+
+## Unauthorized page
+Accessing unauthorized pages `/admin/users` return the error page.
+However the `/admin/users:id` return a dark page with `{"error":"Not Found"}`.
+✅ Correct common behavior to avoir users to find unauthorized pages.
+❌ Do not work for specific pages.
+
+---
+
+### 🧑‍💼🛡️ **Administrator**
+
+## Main page
+Display same interface as **Guest**. List reservations with ressource names, starting and ending time, and the reserver.
+
+**✅ Can do**
+
+List actions an *Administrator* can perform.
+
+Example format:
+
+* “Can add a resource — `/admin/resources/new`”
+* “Can delete a reserver — `/admin/users/delete/:id`”
+* “Can manage all reservations — `/admin/reservations`”
+* “Can view all users (spec 4)”
+
+---
+
+**❌ Cannot do**
+
+List prohibited behaviors, if any, or incorrect implementation issues.
+
+Example format:
+
+* “Cannot book a resource if the system incorrectly blocks admins (bug?)”
+* “Cannot perform an action because the UI has no link (but API allows?) — flag as ⚠️”
