@@ -12,3 +12,4 @@
 | 5.12.2025 | 2 | Phase2 start | Video watched, basics setup and firsts password cracked |
 | 8.12.2025 | 1 | Phase2 end | All password cracked using video hints. Report written on GitHub |
 | 9.12.2025 | 3 | Phase3 start | Beginned writing of Phase3 report of user's authorization |
+| All along | 5 | Online lectures | Attendance to online lectures all along the course (not workshops) |
