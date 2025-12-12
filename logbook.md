@@ -14,4 +14,4 @@
 | 9.12.2025 | 3 | Phase3 start | Beginned writing of Phase3 report of user's authorization |
 | All along | 5 | Online lectures | Attendance to online lectures all along the course (not workshops) |
 | 12.12.2025 | 3 | PortSwigger labs | labs 9 to 17 done |
-| Total H | 31 | | |
+| Total H | 34 | | |
