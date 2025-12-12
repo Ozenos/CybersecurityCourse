@@ -53,3 +53,30 @@ Easier, after reading the documentation just above in the topic, I've understand
 **Topic:** Access control
 
 Also simple, I logged in with user credentials given, and I looked up for the "cookies" parameter. In plain text a boolean parameter for admin was written, and so I turned it on "true" on every operation I did on admin page by using the interceptor of the Burp Suite.
+
+## Lab 9: 2FA simple bypass
+**Topic:** Authentication
+
+## Lab 10: File path traversal, simple case
+**Topic:** Path traversal
+
+## Lab 11: File path traversal, traversal sequences blocked with absolute path bypass
+**Topic:** Path traversal
+
+## Lab 12: File path traversal, traversal sequences stripped non-recursively
+**Topic:** Path traversal
+
+## Lab 13: File path traversal, traversal sequences stripped with superfluous URL-decode
+**Topic:** Path traversal
+
+## Lab 14: File path traversal, validation of start of path
+**Topic:** Path traversal
+
+## Lab 15: File path traversal, validation of file extension with null byte bypass
+**Topic:** Path traversal
+
+## Lab 16: Username enumeration via subtly different responses
+**Topic:** Authentication
+
+## Lab 17: Broken brute-force protection, IP block
+**Topic:** Authentication
