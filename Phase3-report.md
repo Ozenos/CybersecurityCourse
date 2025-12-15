@@ -2,6 +2,7 @@
 
 ### Main page
 Display regular interface showing logging zone, ressource and reservation adding, and list of booked ressources. Do not display reserver's names on reserved ressources.
+
 ✅
 
 ### Logging zone
