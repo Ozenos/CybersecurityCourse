@@ -7,6 +7,7 @@ Display regular interface showing logging zone, ressource and reservation adding
 
 ### Logging zone
 Login and register buttons leads to appropriate pages and functions. Can create account and use it again after logout.
+Cannot register if under 15 years old.
 
 ✅
 
@@ -84,11 +85,11 @@ Not any of the links `/admin/resources/new`, `/admin/users/delete/:id`, `/admin/
 
 ## Recap
 
-1. The system is accessed via a web browser.
-2. Users can register and, after registration, log in to the system.
-3. A registered and logged-in user acts as either a resource reserver or an administrator.
-4. The administrator can add, remove, and modify resources and reservations.
-5. The administrator can delete the reserver.
-6. A reserver can book a resource if they are over 15 years old.
-7. Resources can be booked on an hourly basis.
-8. The booking system displays booked resources without requiring login, but does not show the reserver's identity
+1. The system is accessed via a web browser. ✅
+2. Users can register and, after registration, log in to the system. ✅
+3. A registered and logged-in user acts as either a resource reserver or an administrator. ✅
+4. The administrator can add, remove, and modify resources and reservations. ❌
+5. The administrator can delete the reserver. ❌
+6. A reserver can book a resource if they are over 15 years old. ✅ cannot create an account if so.
+7. Resources can be booked on an hourly basis. ❌ actually a minute basis.
+8. The booking system displays booked resources without requiring login, but does not show the reserver's identity. ✅
