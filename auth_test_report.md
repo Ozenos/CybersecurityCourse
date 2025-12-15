@@ -22,6 +22,9 @@ Works as well for `/reservations` and `/ressources`.
 
 ✅ Correct common behavior to avoid users to find unauthorized pages.
 
+## Summary of Guest:
+Can view application infos except personnal data, and no interaction is possible except for logging.
+
 ---
 
 ## 🧑‍💼 **Reserver**
@@ -62,6 +65,9 @@ Accessing unauthorized pages like `/admin/users` or `/admin/users:id` return the
 
 ✅ Correct common behavior to avoid users to find unauthorized pages.
 
+## Summary of Reserver:
+Can view application infos, interactions are functionnal, and cannot access admin or hidden pages.
+
 ---
 
 ## 🧑‍💼🛡️ **Administrator**
@@ -81,9 +87,12 @@ Not any of the links `/admin/resources/new`, `/admin/users/delete/:id`, `/admin/
 
 ❌ no admin utilities
 
+## Summary of Administrator:
+Can view application infos, interactions are functionnal, but no admin actions can be performed.
+
 ---
 
-## Recap
+## Recap on specs
 
 1. The system is accessed via a web browser. ✅
 2. Users can register and, after registration, log in to the system. ✅
