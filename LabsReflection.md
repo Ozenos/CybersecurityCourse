@@ -80,3 +80,6 @@ Also simple, I logged in with user credentials given, and I looked up for the "c
 
 ## Lab 17: Broken brute-force protection, IP block
 **Topic:** Authentication
+
+## Lab 18: OS command injection, simple case
+**Topic:** Command Injection
