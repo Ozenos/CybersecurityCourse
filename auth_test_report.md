@@ -133,4 +133,4 @@ and access from roles.
 | API | /api/users | access by URL | access by URL | access by URL | Gobuster |
 
 interact : can access and interact with the page, like submitting form.
-access : can gain access to the page normally (if else, specified)
+| access : can gain access to the page normally (if else, specified).
