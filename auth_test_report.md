@@ -120,7 +120,7 @@ Can view application infos, interactions are functionnal, but no macro admin act
 and access from roles.
 
 | Refered in doc | address | Admin | Reserver | Guest | Find with |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| :--- | :--- | :---: | :---: | :---: | :---: |
 | Main page | `http://localhost:8003` | interact | interact | access | N/A |
 | Logging zone | /login | N/A | N/A | interact | button on main page |
 | Logging zone | /register | N/A | N/A | interact | button on main page |
