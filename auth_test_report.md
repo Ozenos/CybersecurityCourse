@@ -110,6 +110,7 @@ Can view application infos, interactions are functionnal, but no macro admin act
 6. A reserver can book a resource if they are over 15 years old. ✅ cannot create an account if so.
 7. Resources can be booked on an hourly basis. ❌ actually a minute basis.
 8. The booking system displays booked resources without requiring login, but does not show the reserver's identity. ✅
+9. 
 -> ❌ Access control issues allows access to unauthorized/sensible pages from reserver or guest.
 
 ---
