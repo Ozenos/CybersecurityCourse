@@ -16,4 +16,5 @@
 | 12.12.2025 | 3 | PortSwigger labs | labs 9 to 17 done |
 | 15.12.2025 | 2 | Phase3 continues | Phase 3 continued, waiting Panopto to finish, lab 18 done |
 | 16.12.2025 | 2 | Phase3 end | Watched phase3 video, completed tasks. But not sure I did all correctly |
-| Total H | 38 | | |
+| 17.12.2025 | 2 | Phase4 start | Documentation read, GDPR_checklist completed |
+| Total H | 40 | | |
