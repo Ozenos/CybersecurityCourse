@@ -18,4 +18,5 @@
 | 16.12.2025 | 2 | Phase3 end | Watched phase3 video, completed tasks. But not sure I did all correctly |
 | 17.12.2025 | 2 | Phase4 start | Documentation read, GDPR_checklist completed |
 | 18.12.2025 | 1 | Phase4 end | privacypolicy, termsofservice and cookiepolicy -.md have been made |
-| Total H | 41 | | |
+| 18.12.2025 | 1 | FinalReport | Created and written the final report for the course. |
+| Total H | 42 | | |
