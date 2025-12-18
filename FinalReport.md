@@ -76,3 +76,5 @@ https://github.com/Ozenos/CybersecurityCourse/blob/main/logbook.md
 | Booking System | 22 |
 | Lectures | 5 |
 | This report | 1 |
+
+Total hours spent: 42
