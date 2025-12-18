@@ -17,4 +17,5 @@
 | 15.12.2025 | 2 | Phase3 continues | Phase 3 continued, waiting Panopto to finish, lab 18 done |
 | 16.12.2025 | 2 | Phase3 end | Watched phase3 video, completed tasks. But not sure I did all correctly |
 | 17.12.2025 | 2 | Phase4 start | Documentation read, GDPR_checklist completed |
-| Total H | 40 | | |
+| 18.12.2025 | 1 | Phase4 end | privacypolicy, termsofservice and cookiepolicy -.md have been made |
+| Total H | 41 | | |
